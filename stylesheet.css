@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(-45deg, rgba(226, 218, 104, 0.89), rgba(248, 108, 225, 0.8)) fixed, url(http://www.webcreatorbox.com/sample/images/bg-cherrybrossam.jpg) fixed;
+  background-size: cover;
+  font-family: "Yu Gothic", YuGothic, sans-serif;
+
+  
+}
+
+.header-list ul{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.header-list li{
+  list-style: none;
+  margin: 10px;
+  
+}
+
+.header-list a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.about,
+.works,
+.contact{
+
+  background-color:rgb(252, 250, 249);
+  width: 80%;
+  margin:30px auto;
+  text-align: center;
+  padding: 20px;
+  
+  
+ 
+}
+ 
+
+
+.about img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.contact{
+  
+  width: 80%;
+  
+  
+}
+
+.contact dl{
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: 0px 60px;
+ 
+}
+
+.contact dt{
+  width: 20%;
+  
+  
+  
+}
+
+.contact dd{
+  width: 70%;  
+  margin-bottom: 10px;
+}
+
+.contact dd input,
+.contact dd textarea{
+  width: 100%;
+  border: solid 1px lightgray;
+    
+}
+
+.contact dd textarea{
+  height: 150px;
+}
+
+.button input{
+  background-color: rgb(252, 227, 250);
+  width: 20%;
+  color: #0c0c0c;
+  margin-top: 20px;
+  border: solid 1px lightgray;
+
+ 
+}
+
+.button input:hover{
+  background-color: rgb(241, 175, 221);
+  color: #000;
+  border: solid 1px lightgray;
+}
